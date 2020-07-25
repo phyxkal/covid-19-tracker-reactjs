@@ -36,6 +36,7 @@ class App extends React.Component {
                 <Cards data={data}/>
                 <CountryPicker handleCountryChange={this.handleCountryChange} />
                 <Chart data={data} country={country}/>
+                <a className={styles.url} href="github.com/phyxkal/covid-19-tracker-reactjs">Source Code Project</a>
             </div>
         )
     }
